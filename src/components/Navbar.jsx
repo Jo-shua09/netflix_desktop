@@ -17,8 +17,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`px-12 py-8 fixed top-0 w-full h-26 z-[999]  ${isScrolled ? "bg-main" : "bg-[linear-gradient] backdrop-blur"}`}>
-      <div className="flex px-3 items-center justify-between">
+    <div className={`sm:px-12 px-6 py-8 fixed top-0 w-full h-26 z-[999]  ${isScrolled ? "bg-main" : "bg-[linear-gradient] backdrop-blur"}`}>
+      <div className="flex px-3 flex-wrap sm:flex-nowrap gap-y-3 items-center justify-between">
         <div className=" flex items-center gap-x-6 cursor-pointer">
           <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="" className="h-10  mr-6" />
           <span className="text-xl">homepage</span>

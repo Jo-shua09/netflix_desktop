@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <div className="w-full h-full overflow-hidden">
+    <div className="w-full h-full overflow-hidden bg-main">
       <Navbar />
       <Featured />
       <List />

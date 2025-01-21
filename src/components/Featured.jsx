@@ -23,7 +23,7 @@ const Featured = ({ type }) => {
         alt=""
         className="w-full h-full object-cover"
       />
-      <div className="w-[35%] absolute left-14 bottom-28 flex flex-col text-white gap-y-6">
+      <div className="sm:w-[35%] absolute sm:left-14 left-10 w-[85%] bottom-28 flex flex-col text-white gap-y-6">
         <h1 className="text-8xl font-bold text-red-700 italic">Netflix</h1>
         <span className="mt-1 text-2xl font-normal">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eius minus mollitia nesciunt provident fugiat itaque dolores? Autem aut
